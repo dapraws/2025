@@ -7,8 +7,9 @@ import { Navbar } from "./components/NavBar";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
-import { Experience } from "./components/sections/Experience";
 import { CustomCursor } from "./components/CustomCursor";
+import { Footer } from "./components/sections/Footer";
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        <Experience />
+        <Footer />
       </div>
     </>
   );
