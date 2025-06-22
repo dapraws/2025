@@ -28,7 +28,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative py-8 md:py-16 px-4 bg-gray-900"
+      className="min-h-screen flex items-center justify-center relative py-8 md:py-16 px-4"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
         {/* Image Section - First on mobile, stays first on desktop */}

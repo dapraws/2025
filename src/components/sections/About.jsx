@@ -41,7 +41,7 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-12 cursor-hover">
-            <h2 className="relative text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 bg-clip-text text-transparent hover:from-cyan-400 hover:via-blue-500 hover:to-pink-500 transition-all duration-500 hover:scale-105 transform">
+            <h2 className="relative text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 bg-clip-text text-transparent hover:from-cyan-400 hover:via-blue-500 hover:to-pink-500 transition-all duration-500 hover:scale-105 transform glow-text">
               About Me
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full transition-all duration-500 hover:w-24 group-hover:w-24"></div>
             </h2>

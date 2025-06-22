@@ -5,7 +5,7 @@ export const Projects = () => {
     {
       title: "Maenbal",
       description:
-        "Mobile application for cloud-based tracking and analytics with real-time data synchronization.",
+        "A platform delivering real-time UCL football updates, including live scores and highlights.",
       technologies: ["Flutter", "Dart", "GetX", "Firebase"],
       type: "Mobile App",
       gradient: "from-blue-500 to-cyan-400",
@@ -16,35 +16,35 @@ export const Projects = () => {
       liveLink: "https://github.com/dapraws/Maenbal-Flutter",
     },
     {
-      title: "AI Analytics Dashboard",
+      title: "OncoDetect",
       description:
-        "ML-powered data visualization platform with predictive analytics and interactive reports.",
+        "A cancer detection app using advanced technology for early diagnosis.",
       technologies: ["Python", "TensorFlow", "D3.js", "Flask"],
-      type: "Web App",
+      type: "Mobile App",
       gradient: "from-purple-500 to-pink-400",
       hoverGradient: "hover:from-purple-600 hover:to-pink-500",
       shadowColor: "rgba(168,85,247,0.3)",
       borderColor: "hover:border-purple-400/50",
-      githubLink: "https://github.com/yourusername/ai-analytics-dashboard", // Replace with your actual repo
-      liveLink: "https://your-ai-dashboard.vercel.app", // Replace with actual live demo
+      githubLink: "https://github.com/dapraws/CancerDetectionApps-Kotlin",
+      liveLink: "https://github.com/dapraws/CancerDetectionApps-Kotlin",
     },
     {
       title: "EcoMerch",
       description:
-        "Full-stack e-commerce with modern UI, secure payment integration, and customizable product inventory.",
+        "A marketplace to buy, sell, and donate recycled products, promoting sustainability.",
       technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
       type: "Mobile App",
       gradient: "from-green-500 to-emerald-400",
       hoverGradient: "hover:from-green-600 hover:to-emerald-500",
       shadowColor: "rgba(34,197,94,0.3)",
       borderColor: "hover:border-green-400/50",
-      githubLink: "https://github.com/yourusername/ecommerce-app", // Replace with your actual repo
-      liveLink: "https://your-ecommerce.vercel.app", // Replace with actual live demo
+      githubLink: "https://github.com/dapraws/EcoMerch-Flutter",
+      liveLink: "https://github.com/dapraws/EcoMerch-Flutter",
     },
     {
       title: "Tracky",
       description:
-        "Mobile application for cloud-based tracking and analytics with real-time data synchronization.",
+        "An IoT-powered app for tracking assets in real time, enhancing inventory management.",
       technologies: ["Android Studio", "Kotlin", "Firebase", "Retrofit"],
       type: "Mobile App",
       gradient: "from-orange-500 to-red-400",
@@ -65,7 +65,7 @@ export const Projects = () => {
         <div className="max-w-6xl mx-auto px-4">
           {/* Enhanced Projects Header */}
           <div className="text-center mb-16 cursor-hover">
-            <h2 className="relative text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 transition-all duration-500 hover:scale-105 transform">
+            <h2 className="relative text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 transition-all duration-500 hover:scale-105 transform glow-text">
               Featured Projects
               {/* Animated underline */}
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-purple-400 rounded-full transition-all duration-500 hover:w-32 group-hover:w-32"></div>
