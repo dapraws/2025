@@ -3,48 +3,56 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
-      title: "Cloud Platform",
+      title: "Maenbal",
       description:
-        "Scalable cloud infrastructure management with real-time monitoring and automated scaling.",
-      technologies: ["React", "Node.js", "AWS", "Docker"],
-      type: "cloud",
+        "Mobile application for cloud-based tracking and analytics with real-time data synchronization.",
+      technologies: ["Flutter", "Dart", "GetX", "Firebase"],
+      type: "Mobile App",
       gradient: "from-blue-500 to-cyan-400",
       hoverGradient: "hover:from-blue-600 hover:to-cyan-500",
       shadowColor: "rgba(59,130,246,0.3)",
       borderColor: "hover:border-blue-400/50",
+      githubLink: "https://github.com/dapraws/Maenbal-Flutter",
+      liveLink: "https://github.com/dapraws/Maenbal-Flutter",
     },
     {
       title: "AI Analytics Dashboard",
       description:
         "ML-powered data visualization platform with predictive analytics and interactive reports.",
       technologies: ["Python", "TensorFlow", "D3.js", "Flask"],
-      type: "ai",
+      type: "Web App",
       gradient: "from-purple-500 to-pink-400",
       hoverGradient: "hover:from-purple-600 hover:to-pink-500",
       shadowColor: "rgba(168,85,247,0.3)",
       borderColor: "hover:border-purple-400/50",
+      githubLink: "https://github.com/yourusername/ai-analytics-dashboard", // Replace with your actual repo
+      liveLink: "https://your-ai-dashboard.vercel.app", // Replace with actual live demo
     },
     {
-      title: "E-Commerce Web App",
+      title: "EcoMerch",
       description:
         "Full-stack e-commerce with modern UI, secure payment integration, and customizable product inventory.",
       technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      type: "ecommerce",
+      type: "Mobile App",
       gradient: "from-green-500 to-emerald-400",
       hoverGradient: "hover:from-green-600 hover:to-emerald-500",
       shadowColor: "rgba(34,197,94,0.3)",
       borderColor: "hover:border-green-400/50",
+      githubLink: "https://github.com/yourusername/ecommerce-app", // Replace with your actual repo
+      liveLink: "https://your-ecommerce.vercel.app", // Replace with actual live demo
     },
     {
-      title: "Real-Time Chat App",
+      title: "Tracky",
       description:
-        "Scalable chat platform supporting real-time messaging, presence, and group chat features.",
-      technologies: ["Socket.IO", "Express", "React", "Redis"],
-      type: "chat",
+        "Mobile application for cloud-based tracking and analytics with real-time data synchronization.",
+      technologies: ["Android Studio", "Kotlin", "Firebase", "Retrofit"],
+      type: "Mobile App",
       gradient: "from-orange-500 to-red-400",
       hoverGradient: "hover:from-orange-600 hover:to-red-500",
       shadowColor: "rgba(249,115,22,0.3)",
       borderColor: "hover:border-orange-400/50",
+      githubLink: "https://github.com/C241-AM01/Tracky-Mobile",
+      liveLink: "https://github.com/C241-AM01/Tracky-Mobile", // Replace with actual live demo if available
     },
   ];
 
@@ -130,7 +138,9 @@ export const Projects = () => {
                   {/* Project Links */}
                   <div className="flex items-center justify-between">
                     <a
-                      href="#"
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`cursor-hover group/link flex items-center space-x-2 text-white/80 hover:text-white 
                                 transition-all duration-300 hover:scale-105 hover:translate-x-2`}
                     >
@@ -152,7 +162,9 @@ export const Projects = () => {
 
                     <div className="flex space-x-3">
                       <a
-                        href="#"
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="cursor-hover p-2 rounded-full border border-white/20 hover:border-white/40 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:-translate-y-1"
                         title="GitHub Repository"
                       >
@@ -165,7 +177,9 @@ export const Projects = () => {
                         </svg>
                       </a>
                       <a
-                        href="#"
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="cursor-hover p-2 rounded-full border border-white/20 hover:border-white/40 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:-translate-y-1"
                         title="Live Demo"
                       >
@@ -199,7 +213,9 @@ export const Projects = () => {
           {/* View All Projects Button */}
           <div className="text-center mt-16">
             <a
-              href="#"
+              href="https://github.com/dapraws" // Replace with your GitHub profile
+              target="_blank"
+              rel="noopener noreferrer"
               className="cursor-hover group inline-flex items-center space-x-3 px-8 py-4 rounded-full border-2 border-white/20 
                        hover:border-white/40 hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-1
                        hover:shadow-[0_10px_30px_rgba(255,255,255,0.1)] backdrop-blur-sm"
