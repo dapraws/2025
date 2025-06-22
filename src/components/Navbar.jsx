@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logo from "/src/assets/logodarrel2025.svg";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -8,9 +9,21 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
+          {/* <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
             dapraws<span className="text-blue-500">.site</span>{" "}
+          </a> */}
+          <a href="#home">
+            <img
+              src={logo}
+              className="h-12"
+              onError={(e) => {
+                console.log("Image failed to load, using fallback");
+                // Fallback to placeholder
+                e.target.style.display = "none";
+                e.target.nextElementSibling.style.display = "flex";
+              }}
+            />
           </a>
 
           <div
