@@ -3,7 +3,7 @@ import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { MobileMenu } from "./components/MobileMenu";
 import "./index.css";
-import { Navbar } from "./components/NavBar";
+import { Navbar } from "./components/Navbar";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
