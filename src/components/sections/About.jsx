@@ -20,9 +20,9 @@ export const About = () => {
   const mobileSkills = [
     "Flutter",
     "Kotlin",
-    "Android Studio",
-    "GetX",
     "Firebase",
+    "GetX",
+    "Android Studio",
   ];
 
   const aiMlSkills = [
