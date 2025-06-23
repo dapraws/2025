@@ -85,6 +85,26 @@ export const CustomCursor = () => {
           duration: 0.3,
           ease: "power2.out",
         });
+      } else if (
+        target.closest(".mobile-card") ||
+        target.closest(".mobile-skill")
+      ) {
+        changeGradient("#eab308", "#f97316"); // Yellow to Orange
+        gsap.to(follower, {
+          scale: 1.4,
+          duration: 0.3,
+          ease: "power2.out",
+        });
+      } else if (
+        target.closest(".aiml-card") ||
+        target.closest(".aiml-skill")
+      ) {
+        changeGradient("#ec4899", "#f43f5e"); // Pink to Rose
+        gsap.to(follower, {
+          scale: 1.4,
+          duration: 0.3,
+          ease: "power2.out",
+        });
       } else if (target.closest(".education-card")) {
         changeGradient("#8b5cf6", "#ec4899"); // Purple to Pink
         gsap.to(follower, {
@@ -198,13 +218,17 @@ export const CustomCursor = () => {
         target.closest(".cursor-card") ||
         target.closest(".frontend-card") ||
         target.closest(".backend-card") ||
+        target.closest(".mobile-card") ||
+        target.closest(".aiml-card") ||
         target.closest(".education-card") ||
         target.closest(".experience-card") ||
         target.closest(".main-card") ||
         target.closest(".frontend-skill") ||
-        target.closest(".backend-skill")
+        target.closest(".backend-skill") ||
+        target.closest(".mobile-skill") ||
+        target.closest(".aiml-skill")
       ) {
-        // // Reset cursor
+        // // Reset cursor to default gradient and scale
         // changeGradient("#ffffff", "#d1d5db");
         // gsap.to(follower, {
         //   scale: 1,
