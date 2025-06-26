@@ -69,7 +69,6 @@ export const Projects = () => {
               Featured Projects
               {/* Animated underline */}
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-500 to-purple-400 rounded-full transition-all duration-500 hover:w-32 group-hover:w-32"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-cyan-400/20 blur-xl opacity-0 hover:opacity-100 transition-opacity duration-500 -z-10"></div>
             </h2>
             <p className="text-gray-400 text-lg hover:text-gray-300 transition-colors duration-300 max-w-2xl mx-auto">
               Showcase of my technical expertise and creative problem-solving
